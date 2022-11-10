@@ -6809,7 +6809,7 @@ table {
   left: 0;
   width: 100%;
   height: 1px;
-  background: #cd0101;
+  background: #fffd00;
   content: '';
   opacity: 0;
   -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
