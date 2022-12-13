@@ -7084,7 +7084,7 @@ table {
 }
 .owl-controls .owl-nav .owl-prev:before,
 .owl-controls .owl-nav .owl-next:before {
-  top: calc(50% - 40px);
+  top: 50%;
 }
 .owl-controls .owl-nav .owl-prev:before {
   right: 5px;
@@ -7336,6 +7336,7 @@ table {
 }
 #index-three-boxes {
   background: #eaedef;
+  padding-bottom: 20px;
 }
 #index-three-boxes .title {
   color: #000;
