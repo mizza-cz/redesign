@@ -6744,7 +6744,6 @@ table {
   left: 0;
   right: 0;
   z-index: 100;
-  margin-top: 12px;
   width: 170px;
 }
 .mw-100 {
@@ -7282,17 +7281,20 @@ table {
 #partners h3 {
   color: #000;
   font-family: 'Montserrat';
-  font-size: 13px;
+  font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 20px;
   display: inline-block;
   margin-top: 45px;
-  margin-bottom: 45px;
+  margin-bottom: 32px;
   margin-left: 24px;
+  width: 100%;
+  font-style: italic;
 }
 #partners ul {
   display: inline-block;
+  margin-bottom: 24px;
 }
 #partners ul li {
   display: inline-block;
@@ -7338,11 +7340,12 @@ table {
 #index-three-boxes .title {
   color: #000;
   font-family: 'Montserrat';
-  font-size: 19px;
+  font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
   padding-top: 35px;
   padding-bottom: 22px;
+  font-style: italic;
 }
 #index-three-boxes .title::before {
   position: absolute;
@@ -7979,66 +7982,21 @@ table {
     width: auto;
   }
 }
-#footer-menu {
-  background: #000;
-  padding-top: 25px;
-  padding-bottom: 15px;
-}
-#footer-menu ul {
-  vertical-align: text-top;
-  list-style: none;
-  display: inline-block;
-  width: 10.5%;
-  padding: 0;
-  margin-right: 15px;
-}
-#footer-menu ul .header {
-  color: #fffd00;
-  font-family: 'Montserrat';
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  border-bottom: 1px solid #fffd00;
-  margin-bottom: 8px;
-  padding-bottom: 6px;
-}
-#footer-menu ul li {
-  margin-bottom: 3px;
-}
-#footer-menu ul li a {
-  color: #fffd00;
-  font-family: 'Source Sans Pro';
-  font-size: 15px;
-  font-weight: 400;
-}
+
 #copyright {
-  color: #000;
+  color: #fff;
   font-family: 'Montserrat';
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   margin-top: 20px;
 }
 #copyright a {
   text-decoration: underline;
-  color: #000;
+  color: #fff;
 }
-@media (max-width: 1200px) {
-  #footer-menu ul {
-    width: 23%;
-  }
-}
-@media (max-width: 992px) {
-  #footer-menu ul {
-    width: 22%;
-  }
-}
-@media (max-width: 768px) {
-  #footer-menu ul {
-    width: 100%;
-  }
-}
+
 #archiv table {
   width: auto;
 }
@@ -8228,7 +8186,7 @@ pre {
   background: #fffd00;
 }
 .nav-red {
-  background-color: #000;
+  background: #606060;
 }
 .nav-white {
   background-color: #fff;
@@ -8250,6 +8208,7 @@ pre {
   text-decoration: none;
   color: #fffd00;
   font-size: 30px;
+  font-style: italic;
 }
 .logo a p {
   padding-left: 24px;
@@ -8524,4 +8483,32 @@ pre {
   opacity: 1;
 }
 
+.footer {
+  background-color: #000;
+  padding: 20px 0;
+}
+.footer .soc-icons ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.footer .soc-icons li {
+  padding: 0 8px;
+  list-style: none;
+}
+.footer .soc-icons a {
+  width: 32px;
+  height: 32px;
+  display: block;
+  opacity: 0.8;
+  transition: all 0.3s;
+}
+.footer .soc-icons a:hover {
+  opacity: 1;
+}
+.footer .soc-icons img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 /*# sourceMappingURL=main.min.css.map */
