@@ -7190,13 +7190,13 @@ table {
 }
 #articles .article a .info h2 {
   margin: 0;
-  color: #cd0101;
+  color: #000;
   font-family: 'Montserrat';
   font-size: 19px;
   font-weight: 400;
 }
 #articles .article a .info .date {
-  color: #cd0101;
+  color: #000;
   font-family: 'Montserrat';
   font-size: 13px;
   font-weight: 400;
@@ -8183,7 +8183,8 @@ pre {
   text-decoration: none;
   color: #fffd00;
   font-size: 30px;
-  font-family: Calibri, sans-serif;
+  font-family: 'Hemi Head', sans-serif;
+  font-style: italic;
 }
 .logo a p {
   padding-left: 24px;
@@ -8191,6 +8192,7 @@ pre {
   margin-bottom: 0px;
   line-height: 1;
   font-weight: 400;
+  font-style: normal;
 }
 #index-matches .match .info .score.win {
   color: green;
