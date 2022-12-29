@@ -7166,6 +7166,7 @@ table {
 }
 #article {
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.36);
+  background-color: #fff;
 }
 #articles {
   background: #fffd00;
@@ -7542,7 +7543,7 @@ table {
 }
 #article .text .inner .match-info .date {
   text-align: center;
-  color: #cd0101;
+  color: #000;
   font-family: 'Montserrat';
   font-size: 19px;
   font-weight: 400;
@@ -7561,7 +7562,7 @@ table {
 #article .text .inner .match-info .info .team2 {
   display: table-cell;
   width: 40%;
-  color: #cd0101;
+  color: #000;
   font-family: 'Montserrat';
   font-size: 13px;
   font-weight: 400;
@@ -7573,7 +7574,7 @@ table {
 }
 #article .text .inner .match-info .info .team1 .inline p,
 #article .text .inner .match-info .info .team2 .inline p {
-  color: #cd0101;
+  color: #000;
   font-family: 'Montserrat';
   font-size: 19px;
   font-weight: 700;
@@ -7590,16 +7591,16 @@ table {
 }
 #article .text .inner .match-info .info .score {
   font-family: 'Montserrat';
-  color: #cd0101;
+  color: #000;
   font-size: 48px;
   font-weight: 700;
   width: 95%;
-  border: 2px solid #cd0101;
+  border: 2px solid #000;
   border-radius: 100%;
   padding: 25px;
 }
 #article .text .inner .match-info .info .score .periods {
-  color: #cd0101;
+  color: #000;
   font-family: 'Montserrat';
   font-size: 13px;
   font-weight: 400;
@@ -8187,6 +8188,7 @@ pre {
   font-style: italic;
 }
 .logo a p {
+  /* font-family: 'Hemi Head', sans-serif; */
   padding-left: 24px;
   font-size: 18px;
   margin-bottom: 0px;
@@ -8488,5 +8490,34 @@ pre {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+.content {
+  background-repeat: repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: none;
+}
+.owl-controls .owl-nav {
+  position: absolute;
+  width: 100%;
+  font-size: 56px;
+  color: #000;
+}
+.owl-controls .owl-nav .owl-prev:before,
+.owl-controls .owl-nav .owl-next:before {
+  top: 50px;
+}
+.owl-next {
+  position: absolute;
+  left: 29px;
+}
+.owl-prev {
+  position: absolute;
+}
+.owl-controls .owl-nav .owl-next:before {
+  left: 6px;
 }
 /*# sourceMappingURL=main.min.css.map */
