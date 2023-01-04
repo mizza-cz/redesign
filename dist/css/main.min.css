@@ -8180,21 +8180,23 @@ pre {
   }
 }
 .logo a {
-  font-weight: 900;
+  font-weight: 400;
   text-decoration: none;
   color: #fffd00;
-  font-size: 30px;
+  font-size: 36px;
   font-family: 'Hemi Head', sans-serif;
   font-style: italic;
 }
 .logo a p {
   /* font-family: 'Hemi Head', sans-serif; */
+  font-family: 'Barlow', 'Hemi Head', Arial, sans-serif;
   padding-left: 24px;
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 0px;
   line-height: 1;
   font-weight: 400;
   font-style: normal;
+  font-style: italic;
 }
 #index-matches .match .info .score.win {
   color: green;
