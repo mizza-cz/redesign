@@ -8554,6 +8554,7 @@ body {
   padding-bottom: 22px;
   font-style: italic;
   margin: 0;
+  position: relative;
 }
 .hp-links .title::before {
   position: absolute;
