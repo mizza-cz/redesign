@@ -8495,7 +8495,7 @@ pre {
 }
 .content {
   background-repeat: repeat;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 100%;
 }
@@ -8533,10 +8533,17 @@ body {
 .hp-links__inner {
   background-color: #fff;
   display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  margin-left: -14px;
+  margin-right: -14px;
 }
-.hp-links__inner .col-sm-4 {
-  padding: 0;
+@media (max-width: 967px) {
+  .hp-links__inner {
+    flex-direction: column;
+  }
 }
+
 .hp-links .title {
   color: #000;
   font-family: 'Montserrat';
@@ -8577,10 +8584,19 @@ body {
 .hp-links__gallery,
 .hp-links__nabor,
 .hp-links__youtube {
+  max-width: 33.333%;
+  flex: 0 0 33.33%;
   padding-bottom: 24px;
   padding-left: 12px;
   padding-right: 12px;
-  height: 100%;
+}
+@media (max-width: 967px) {
+  .hp-links__gallery,
+  .hp-links__nabor,
+  .hp-links__youtube {
+    max-width: 100%;
+    flex: 100%;
+  }
 }
 .hp-links__youtube {
   background-color: #cd0101;
