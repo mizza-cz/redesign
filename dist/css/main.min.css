@@ -8623,7 +8623,7 @@ body {
   color: #fffd00;
 }
 .hp-links__nabor {
-  background-color: #fffd00;
+  background-color: rgb(255, 209, 26);
 }
 @media (max-width: 760px) {
   .table-respons {
