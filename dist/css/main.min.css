@@ -8617,13 +8617,13 @@ body {
   left: 23px;
 }
 .hp-links__gallery {
-  background-color: #eaedef;
+  background-color: rgb(255, 209, 26);
 }
 .hp-links__gallery .title {
   color: #fffd00;
 }
 .hp-links__nabor {
-  background-color: rgb(255, 209, 26);
+  background-color: #fffd00;
 }
 @media (max-width: 760px) {
   .table-respons {
