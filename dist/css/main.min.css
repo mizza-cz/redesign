@@ -8568,7 +8568,7 @@ body {
 .hp-links__img {
   width: 100px;
   height: auto;
-  margin: 0 auto 24px;
+  margin: 0 auto;
   display: block;
   transition: all 0.3s;
 }
@@ -8607,7 +8607,7 @@ body {
 }
 .hp-links__nabor .hp-links__img,
 .hp-links__youtube .hp-links__img,
-.hp-links__youtube .hp-links__img {
+.hp-links__gallery .hp-links__img {
   margin-bottom: 0;
 }
 
