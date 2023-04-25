@@ -8600,7 +8600,7 @@ body {
   }
 }
 .hp-links__youtube {
-  background-color: #cd0101;
+  background-color: #fe0000;
 }
 .hp-links__youtube .title {
   color: #fff;
@@ -8617,13 +8617,14 @@ body {
   left: 23px;
 }
 .hp-links__gallery {
-  background-color: rgb(255, 209, 26);
+  /* background-color: #eaedef; */
+  background-color: #665e55;
 }
 .hp-links__gallery .title {
-  color: #fffd00;
+  color: RGB(255, 209, 26);
 }
 .hp-links__nabor {
-  background-color: #fffd00;
+  background-color: #ffca18;
 }
 @media (max-width: 760px) {
   .table-respons {
