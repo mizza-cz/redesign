@@ -8676,4 +8676,25 @@ body {
   }
 }
 
+.c-team__btns {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin-left: -6px;
+  margin-right: -6px;
+}
+.c-team__btns li {
+  padding: 0 6px;
+  list-style: none;
+}
+.c-team__btns a {
+  text-transform: uppercase;
+}
+.c-team__btns .active {
+  background-color: #fffd00;
+  color: #000;
+}
+.c-team-section table {
+  width: 100% !important;
+}
 /*# sourceMappingURL=main.min.css.map */
