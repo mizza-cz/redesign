@@ -8713,9 +8713,7 @@ body {
   text-align: center;
 }
 
-.player-section table tbody tr td:nth-child(2),
 .player-section table tbody tr td:first-child,
-.player-section table tbody tr th:nth-child(2),
 .player-section table tbody tr th:first-child {
   text-align: left;
   width: auto !important;
